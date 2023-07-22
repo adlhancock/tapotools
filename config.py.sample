@@ -1,0 +1,10 @@
+login = {
+        'email':'user@domain.com',
+        'password':'password'
+        }
+
+devices = {
+        'plug 1':'192.168.0.xxx',
+        'bulb 1':'192.168.0.xxx',
+        'bulb 2':'192.168.0.xxx'
+        }
