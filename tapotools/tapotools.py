@@ -8,8 +8,8 @@ import json
 from datetime import datetime as dt
 from colorsys import rgb_to_hsv
 from matplotlib import colors
-from config import login
-from config import devices
+from .config import login
+from .config import devices
 from PyP100.PyP100 import getDeviceList
 
 class DeviceList:
