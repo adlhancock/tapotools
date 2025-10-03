@@ -1,5 +1,7 @@
 #! /usr/bin/python3
 
+from .config import login
+from .config import devices
 from PyP100.PyP110 import P110
 from PyP100.PyL530 import L530
 import sys
@@ -8,8 +10,6 @@ import json
 from datetime import datetime as dt
 from colorsys import rgb_to_hsv
 from matplotlib import colors
-from .config import login
-from .config import devices
 from PyP100.PyP100 import getDeviceList
 
 class DeviceList:
